@@ -1,0 +1,733 @@
+.desktop,
+.desktop * {
+  box-sizing: border-box;
+}
+.desktop {
+  background: var(--background-background-1, #ffff77);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: auto;
+}
+.nav {
+  background: var(--background-background-1, #ffff77);
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 0px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+}
+.home {
+  color: var(--text-body-1, #8e1606);
+  text-align: left;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  text-decoration: underline;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-information {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.today-s-ingredient-swiss-chard {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day-263 {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-me {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.status-bar {
+  background: #ffff77;
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 1px;
+  padding: 10px 50px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1500px;
+  position: relative;
+  overflow: hidden;
+}
+.div2 {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: "Vt323-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 90%;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.today-s-weather {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sunny {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(
+    --paragraph-2-font-family,
+    "DotGothic16-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-2-font-size, 16px);
+  line-height: var(--paragraph-2-line-height, 90%);
+  letter-spacing: var(--paragraph-2-letter-spacing, 0.01em);
+  font-weight: var(--paragraph-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 1280px;
+  height: 2932px;
+  position: static;
+}
+.hero {
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  height: 700px;
+  max-width: 1500px;
+  position: absolute;
+  left: 0px;
+  top: 76px;
+  overflow: hidden;
+}
+.hero-information {
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 600px;
+  position: relative;
+}
+.bite-me-a-daily-dose-of-vegan {
+  color: var(--labels-primary, #000000);
+  text-align: center;
+  font-family: var(--heading-1-font-family, "DotGothic16-Regular", sans-serif);
+  font-size: var(--heading-1-font-size, 80px);
+  line-height: var(--heading-1-line-height, 115%);
+  letter-spacing: var(--heading-1-letter-spacing, 0.01em);
+  font-weight: var(--heading-1-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-me-as-i-munch-my-way-through-365-days-of-plant-based-deliciousness-expect-questionable-puns-unexpected-recipes-and-a-whole-lot-of-leafy-greens {
+  color: var(--labels-primary, #000000);
+  text-align: center;
+  font-family: var(--caption-font-family, "SpaceMono-Regular", sans-serif);
+  font-size: var(--caption-font-size, 13px);
+  line-height: var(--caption-line-height, 120%);
+  letter-spacing: var(--caption-letter-spacing, -0.03em);
+  font-weight: var(--caption-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1280px;
+  position: absolute;
+  left: 0px;
+  top: 776px;
+}
+.heading-container {
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 0px 1px 0px 1px;
+  padding: 150px 10px 150px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1500px;
+  position: relative;
+  overflow: hidden;
+}
+.heading-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.lettuce-begin {
+  color: var(--text-headline-2, #8e1606);
+  text-align: center;
+  font-family: var(--heading-2-font-family, "DotGothic16-Regular", sans-serif);
+  font-size: var(--heading-2-font-size, 45px);
+  line-height: var(--heading-2-line-height, 90%);
+  letter-spacing: var(--heading-2-letter-spacing, -0.03em);
+  font-weight: var(--heading-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check-out-my-daily-vegan-recipes {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(--paragraph-1-font-family, "SpaceMono-Regular", sans-serif);
+  font-size: var(--paragraph-1-font-size, 16px);
+  line-height: var(--paragraph-1-line-height, 135%);
+  letter-spacing: var(--paragraph-1-letter-spacing, -0.03em);
+  font-weight: var(--paragraph-1-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.entries {
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1500px;
+  position: relative;
+  overflow: hidden;
+}
+.entry-container-01 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.entry-container {
+  background: var(--background-background-1, #ffff77);
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 1px;
+  padding: 45px 12px 40px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.content2 {
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 375px;
+  position: relative;
+}
+.folios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.entry {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(--heading-3-font-family, "SpaceMono-Regular", sans-serif);
+  font-size: var(--heading-3-font-size, 20px);
+  line-height: var(--heading-3-line-height, 130%);
+  letter-spacing: var(--heading-3-letter-spacing, -0.03em);
+  font-weight: var(--heading-3-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._01 {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(--heading-3-font-family, "SpaceMono-Regular", sans-serif);
+  font-size: var(--heading-3-font-size, 20px);
+  line-height: var(--heading-3-line-height, 130%);
+  letter-spacing: var(--heading-3-letter-spacing, -0.03em);
+  font-weight: var(--heading-3-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.poached-bosc-pears {
+  color: var(--text-body-1, #8e1606);
+  text-align: center;
+  font-family: var(--heading-3-font-family, "SpaceMono-Regular", sans-serif);
+  font-size: var(--heading-3-font-size, 20px);
+  line-height: var(--heading-3-line-height, 130%);
+  letter-spacing: var(--heading-3-letter-spacing, -0.03em);
+  font-weight: var(--heading-3-font-weight, 400);
+  position: relative;
+  width: 177px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.button {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-02 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button2 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-03 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button3 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-04 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button4 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-05 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button5 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-06 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button6 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-07 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button7 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-08 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button8 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-09 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button9 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button10 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-11 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button11 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.entry-container-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex: 1;
+  min-width: 400px;
+  position: relative;
+}
+.button12 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.footer {
+  border-style: solid;
+  border-color: var(--dividers-divider-1, #ca1e08);
+  border-width: 1px 0px 0px 0px;
+  padding: 173px 0px 173px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 298px;
+  position: relative;
+}
+.text-link-about {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.label {
+  color: var(--text-headline-2, #8e1606);
+  text-align: center;
+  font-family: var(--heading-2-font-family, "DotGothic16-Regular", sans-serif);
+  font-size: var(--heading-2-font-size, 45px);
+  line-height: var(--heading-2-line-height, 90%);
+  letter-spacing: var(--heading-2-letter-spacing, -0.03em);
+  font-weight: var(--heading-2-font-weight, 400);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
