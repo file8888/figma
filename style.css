@@ -688,7 +688,7 @@
 .footer {
   border-style: solid;
   border-color: var(--dividers-divider-1, #ca1e08);
-  border-width: 1px 0px 0px 0px;
+  border-width: 0px 0px 0px 0px;
   padding: 173px 0px 173px 0px;
   display: flex;
   flex-direction: column;
