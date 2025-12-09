@@ -136,7 +136,7 @@
   justify-content: center;
   width: 100%;
   flex-shrink: 0;
-  max-width: 1500px;
+  max-width: 1280px;
   position: relative;
   overflow: hidden;
 }
@@ -215,7 +215,7 @@
   height: 700px;
   max-width: 1500px;
   position: absolute;
-  left: 0px;
+  /* left: 0px; */
   top: 76px;
   overflow: hidden;
 }
@@ -267,7 +267,7 @@
   justify-content: flex-start;
   width: 1280px;
   position: absolute;
-  left: 0px;
+  /* left: 0px; */
   top: 776px;
 }
 .heading-container {
@@ -454,7 +454,8 @@
   height: 28px;
   position: relative;
   transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
+  /* transform: rotate(90deg) scale(1, 1); */
+  color: #8e1606;
 }
 .button {
   width: 28px;
@@ -698,6 +699,7 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  margin-top: 5px;
 }
 .links {
   display: flex;
